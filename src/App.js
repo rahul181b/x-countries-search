@@ -38,7 +38,6 @@ function App() {
       <div className="container">
         {filteredCountries.map((country) => (<div className="countryCard"><img className="imgStyle" src={country.flags.png} alt={country.name.common} />
           <p>{country.name.common}</p></div>))}
-
       </div>
     </div>
   );
