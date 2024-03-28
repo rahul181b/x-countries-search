@@ -37,7 +37,7 @@ function App() {
       <input className="input-country" placeholder="Search for the countries" value={searchTerm} type="text" onChange={handleChange} />
       <div className="container">
         {filteredCountries.map((country) => (<div className="countryCard"><img className="imgStyle" src={country.flags.png} alt={country.name.common} />
-          <h3>{country.name.common}</h3></div>))}
+          <p>{country.name.common}</p></div>))}
 
       </div>
     </div>

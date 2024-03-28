@@ -26,3 +26,7 @@
    width: 600px;
    padding: 5px;
 }
+
+p {
+   font-weight: bold;
+}
